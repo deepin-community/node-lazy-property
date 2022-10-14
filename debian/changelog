@@ -1,0 +1,50 @@
+node-lazy-property (1.0.0+repack-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints.
+    + node-lazy-property: Add Multi-Arch: foreign.
+
+  [ lintian-brush ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.1
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+  * Use dh-sequence-nodejs auto test & install
+  * Update debian/watch: use npm registry
+  * Embed @types/lazy-property and repack
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 30 Nov 2020 18:39:05 +0100
+
+node-lazy-property (1.0.0-3) unstable; urgency=medium
+
+  * Team upload
+  * Use DEB_BUILD_PROFILES instead of DEB_BUILD_OPTIONS for nocheck
+    (DEB_BUILD_OPTIONS does not filter build dependencies)
+
+ -- Pirate Praveen <praveen@debian.org>  Wed, 12 Sep 2018 11:01:08 +0530
+
+node-lazy-property (1.0.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Enable nocheck build option
+  * Bump debhelper compatibility level to 11
+  * Bump Standards-Version to 4.2.1 (no changes needed)
+  * Use salsa.debian.org in Vcs-* fields
+
+ -- Pirate Praveen <praveen@debian.org>  Mon, 10 Sep 2018 11:34:24 +0530
+
+node-lazy-property (1.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #868323)
+
+ -- saravanan30erd <saravanan30erd@gmail.com>  Fri, 14 Jul 2017 10:06:05 -0400

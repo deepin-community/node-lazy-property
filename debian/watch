@@ -1,0 +1,12 @@
+version=4
+# It is not recommended use npmregistry. Please investigate more.
+# Origin url: https://github.com/mikolalysenko/lazy-property
+# Take a look at https://wiki.debian.org/debian/watch/
+opts="searchmode=plain,pgpmode=none,dversionmangle=auto" \
+ https://registry.npmjs.org/lazy-property \
+ https://registry.npmjs.org/lazy-property/-/lazy-property-(\d[\d\.]*)@ARCHIVE_EXT@
+
+# It is not recommended use npmregistry. Please investigate more.
+# Take a look at https://wiki.debian.org/debian/watch/
+opts="searchmode=plain,component=types-lazy-property,pgpmode=none" \
+ https://registry.npmjs.org/@types/lazy-property https://registry.npmjs.org/@types/lazy-property/-/lazy-property-([\d\.]+)@ARCHIVE_EXT@ ignore
